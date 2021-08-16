@@ -7,7 +7,7 @@ gallery.insertAdjacentHTML(
   'beforeend',
   galleryItems
     .map(
-      (image, idx) =>
+      image =>
         `<li class="gallery__item">
           <a class="gallery__link" href="${image.original}">
             <img
