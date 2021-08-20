@@ -16,7 +16,8 @@ gallery.insertAdjacentHTML(
               data-source="${image.original}"
               alt="${image.description}"
             />
-          </a>`,
+          </a>
+        </li>`,
     )
     .join(''),
 )
