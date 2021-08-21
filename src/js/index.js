@@ -1,5 +1,5 @@
 //- Создание и рендер разметки по массиву данных `galleryItems` из `app.js` и предоставленному шаблону.
-import galleryItems from './app.js'
+import galleryItems from './db.js'
 
 const gallery = document.querySelector('.js-gallery')
 
